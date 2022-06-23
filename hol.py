@@ -32,7 +32,7 @@ while 1:
             print("틀렸습니다.")
             life -= 1
 
-    time.sleep(2)               # 프로그램을 잠시 멈춤
-    os.system("cls")            # 화면을 바꿔줌
+    time.sleep(2)              
+    os.system("cls")           
 
 print(f"총 점수 : {score} ", score)
